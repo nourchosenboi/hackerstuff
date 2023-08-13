@@ -1,0 +1,138 @@
+ <html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>book store</title>
+        <meta name="discription" content="this is our book strore"/>
+    </head>
+    <body>
+        <div>
+            <h1> book store</h1>
+            <p>this is my book store, welcome</p>
+        </div>
+        <form method="GET" action="" novalidate target="_blank">
+            <input type="hidden" value="osama">
+            <div>
+                <label>username</label >
+                <input type="text" required placeholder="username" name="user" readonly>
+            </div>
+            <br>
+            <div>
+                <label>subject</label>
+                <input type="text" name="sub" autofocus>
+            </div>
+            <br>
+            <div>
+                <label>password</label>
+                <input
+                type="password"
+                required placeholder="write a complexed password"
+                name="pass" minlength="10" maxlength="20">
+            </div>
+            <br>
+            <div>
+                <label>email</label>
+                <input type="email" required placeholder="write a valid email" name="mail" disabled>
+            </div>
+            <br>
+            <div>
+                <label>colour</label>
+                <input type="color" name="color" >
+            </div>
+            <br>
+            <div>
+                <label>range</label>
+                <input type="range" name="range" min="0" max="100" step="20" value="80" required>
+            </div>
+            <br>
+            <div>
+                <label>number</label>
+                <input type="number" name="number" min="10" max="100" step="10" required>
+            </div>
+            <div>
+                <input  id="win" type="radio" name="os" value="windows">
+                <label for="win">windows</label>
+            </div>
+            <div>
+                <input id="lin" type="radio" name="os" value="linux">
+                <label for="lin">linux</label>
+            </div>
+            <div>
+                <input id="mac" type="radio" name="os" value="mac">
+                <label for="mac">mac</label>    
+            </div>
+            <hr>
+            <div>
+                <input  id="win1" type="checkbox" name="os" value="windows">
+                <label for="win1">windows</label>
+            </div>
+            <div>
+                <input id="lin1" type="checkbox" name="os" value="linux">
+                <label for="lin1">linux</label>
+            </div>
+            <div>
+                <input id="mac1" type="checkbox" name="os" value="mac">
+                <label for="mac1">mac</label>
+             </div>
+
+             <label for="book">choose book:</label>
+             <select name="book" id="book"><optgroup label="romantic books">
+                <option value="1">book 1</option>
+                <option value="2">book 2</option>
+                <option value="3">book  3</option>
+                </optgroup>
+                 <optgroup label="polic books">
+                 <option value="4" selected>book 4</option>
+                <option value="5">book 5</option>
+                <option value="6">book 6</option>
+                 </optgroup>
+                </select>
+
+
+             <hr>
+
+             <textarea name="subject" cols="40" rows="10" placeholder="text text"></textarea>
+
+             <hr>
+                <div>
+                    <label>upload</label>
+                    <input type="upload">
+                </div>
+             <hr>
+                <div>
+                    <label>search</label>
+                    <input type="search">
+                </div>
+                <div>
+                    <label>url</label>
+                    <input type="url">
+                </div>
+                <div>
+                    <label>date</label>
+                    <input type="date">
+                </div>
+                <div>
+                    <label>month</label>
+                    <input type="month">
+                </div>
+                <div>
+                    <label>time</label>
+                    <input type="time">
+                </div> 
+
+                <input list="programming" name="prog">
+
+              <datalist>
+                <option value="python">
+                <option value="PHP">
+                <option value="C#">
+                <option value="C">
+                <option value="C++">
+                <option value="scala">
+              </datalist>  
+
+                <hr>
+
+            <input type="submit" value="save">
+            <input type="reset" value="reset">
+        </form>
+   
